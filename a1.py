@@ -38,9 +38,9 @@ def factorial(n: int) -> int:
     Returns:
         factorial of the passed in number
     """
-    #4 = 1 * 2 * 3* 4= 24
+    # 4 = 1 * 2 * 3* 4= 24
     result = 1
-    for x in range (1,n+1):
+    for x in range(1,n+1):
         result = result * x
     return result 
 
@@ -60,7 +60,7 @@ def every_other(lst: List[T]) -> List[T]:
     Returns:
         a list of every of other item in the original list starting with the first
     """
-    # new_lst = []
+    new_lst = []
     # for i in range(len[lst],2):
     #     print(lst[i]);
     #     new_lst.append(lst[i])
@@ -95,11 +95,9 @@ def mean(lst: List[int]) -> float:
     Returns:
         the mean of the passed in list
     """
-    s= sum_list(lst)
-    print(s)
-    num_el = len(lst)
-    print(num_el)
-    return s/ num_el
+\
+return sum_list(lst)/len(lst) if lst else 0 
+
 
 
 def median(lst: List[int]) -> float:
@@ -114,13 +112,15 @@ def median(lst: List[int]) -> float:
     Returns:
         the median of the passed in list
     """
-    if len[lst] % 2 == 1:
+    if len(lst)%2==1:
         mid = len(lst) // 2
-        return lst(mid)
+        return lst[mid]
     else:
-        mid1 = len(lst) //2
+        mid1 = len(lst)//2
         mid2= mid1 - 1 
-        return(lst(mid) + lst (mid2)) / 2
+        return lst([mid] + lst [mid2]) / 2
+
+
 
 def duck_duck_goose(lst: List[str]) -> List[str]:
     """Given an list of names (strings), play 'duck duck goose' with it, knocking out
@@ -146,7 +146,7 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
     while 1 < len(lst)>2:
         if current== "duck1":
             i+=1
-            current=="duck2"
+            current="duck2"
         elif current=="duck2":
             i+=1
             current = "goose"
@@ -162,6 +162,7 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
 if __name__ == "__main__":
     assert absolute(-1) == 1, "absolute of -1 failed"
     assert factorial(4) == 24, "factorial of 4 failed"
+    assert factorial(5) == 120, "factorial of 5 failed"
     assert every_other([1, 2, 3, 4, 5]) == [
         1,
         3,
