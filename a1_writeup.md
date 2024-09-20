@@ -14,10 +14,12 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 
 1. What is your initial thoughts about the python programming language?
 
-
+It''s fairly similar to java.script, but its way easier. I think it took me while to actully understand the languages because if I zoned out for one part of the lecture, I would get confused on what a sign would mean because its such a condensed language. I am very excited to learn how to do more on this language.
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
 
-
+The loops in the program are very similar to java, even using the same controller symbol. The use of 'while' and 'if' and 'else' are all java terms that i have learnd already. The differences in between the languages, as previously stated, is the way that python is more condensed than java. Also the semicolons, that a big thing about java that isn't here in python. If there wasnt semicolons at the end of lines the code would have a lot of bugs.
 
 3. What are some things that you learned through this assignment?
+
+I obviously learned the basics of python. But I also learned how to apply them to make certin tasks. I also learned how to
