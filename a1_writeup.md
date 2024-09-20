@@ -22,4 +22,4 @@ The loops in the program are very similar to java, even using the same controlle
 
 3. What are some things that you learned through this assignment?
 
-I obviously learned the basics of python. But I also learned how to apply them to make certin tasks. I also learned how to
+I obviously learned the basics of python. But I also learned how to apply them to make certin tasks. I also learned how to use AI in order to learn more about python code. For example, the bugs that could be in your code can be detected by AI and then they can explain why your code didn't work and how you should improve it.
